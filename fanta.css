@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins",sans-serif;
+    overflow-x: hidden;
+}
+header{
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 40px;
+}
+.pepsi-logo{
+    font-weight: bold;
+    color: white;
+}
+.humberger-menu{
+    font-size: 18px;
+    color: rgb(240, 240, 240);
+    cursor: pointer;
+}
+header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+header nav ul li{
+    color: white;
+}
+.container{
+    overflow: hidden;
+}
+.one{
+    background: linear-gradient(45deg, #005BAC, #003D73, #0099CC);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pepsi{
+    width: 16%;
+    position: relative;
+    z-index: 2;
+}
+.pepsi-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 19em;
+    letter-spacing: 16px;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 0;
+
+}
+.pepsi-cap{
+    position: absolute;
+    top: 10%;
+    width: 17%;
+    left: 31%;
+    z-index: 1;
+}
+.leaf2{
+    position: absolute;
+    top: 11%;
+    left:2%;
+    width: 18%;
+    transform: rotate(100deg);
+    z-index: 1;
+}
+.leaf1{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 18%;
+    transform:rotate(-90deg);
+}
+
+
+.two{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background:#eaeaea;
+}
+.left-content{
+    width: 40%;
+}
+.left-content svg{
+    width: 90%;
+    fill: #01548b;
+}
+.right-content{
+    width: 60%;
+    color: white;
+    font-size: 14px;
+}
+.right-content p{
+    width: 80%;
+    color: black;
+}
+.three{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(45deg, #005BAC, #003D73, #0285b0);
+}
+.three-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+    gap: 20px;
+    height: 100%;
+    padding: 0 10px;
+}
+.col-1,.col-2,.col-3{
+    height: 400px;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item{
+    text-align: center;
+    margin-top: 250px;
+}
+.product-name{
+    font-weight: bold;
+    color: rgb(35, 35, 35);
+    font-size: 23px;
+    margin-bottom: 6px;
+}
+.buy-now-btn{
+    padding: 8px 34px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(3, 90, 161);
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.pepsi-image,.sprite-image{
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150%;
+    z-index: 2;
+}
+.sprite-image{
+  width: 133%;
+  top: -17%;
+}
+.pepsi-1,.s-pepsi{
+    position: absolute;
+    left: 50%;
+    top: -22%;
+    transform: translateX(-50%);
+    width: 85%;
+    z-index: 1;
+
+}
+.four{
+    height: 100vh;
+    width: 100%;
+    background-color: #474747;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.four img{
+    width: 80%;
+}
+.four h1{
+  position: absolute;
+  bottom: 10%;
+  color: white;
+}
+
