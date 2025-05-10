@@ -8,9 +8,8 @@ A modern animated landing page built using **HTML**, **CSS**, and **GSAP** (Gree
 
 ## 📸 Preview
 
-![GSAP Animated Website Screenshot](./.Screenshot (71).png)
+![GSAP Animated Website Screenshot](./Screenshot (71).png)
 
-> *(Make sure `screenshot.png` is in your repo root, or update the path accordingly.)*
 
 ## ✨ Features
 
